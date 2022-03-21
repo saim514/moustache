@@ -1,9 +1,10 @@
 noseX = 0;
 noseY = 0;
 
+
 function preload()
 {
-
+  moustache=loadImage('https://i.postimg.cc/7Z5NDnWb/images-removebg-preview.png');
 }
 
 function setup()
@@ -21,6 +22,7 @@ function setup()
 function draw()
 {
  image(video, 0, 0, 400, 400);
+ image(moustache, noseX, noseY, 35, 75)
 }
 
 function gotPoses(results)
